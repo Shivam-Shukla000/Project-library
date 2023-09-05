@@ -1,0 +1,92 @@
+body  {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #48D1CC;
+}
+.container {
+   width: 70%;
+   height: auto;
+   background-color: aliceblue;
+   padding: 20px;
+   
+}
+.header {
+    margin: auto;
+    font-weight: 1000;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #48D1CC;
+}
+.addNew {
+    color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+   
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    border: 0px;
+    border-radius: 10px;
+    
+    margin-top: 0px;
+    height: 25px;
+}
+label {
+   padding: 20px 0px;
+   padding-bottom: 0px;
+}
+button {
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 5px 25px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: grey;
+}
+.books {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-gap: 10px;
+}
+.bookItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+}
+.name {
+    margin: 20px auto;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.written {
+    margin: 10px auto;
+    font-size: 10px;
+    margin-bottom: 1px;
+}
+.author {
+    margin: 10px auto;
+    font-size: 20px;
+    margin-top: 1px;
+}
+.year {
+    margin: 20px auto;
+    font-size: 15px;
+}
+#delete {
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
